@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.molecule-image {
+  position: absolute;
+  background-image: url("https://global-uploads.webflow.com/5e1fd816757e435bf2ef1fa1/5e1fd8b07652b6c73ca6cf68_streamline-icon-science-molecules%401024x1024.svg");
+  background-repeat: no-repeat;
+  background-size: 512px;
+  background-position: left;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+}
+.all-1 {
+  background-position: center;
+  position: absolute;
+  width: 60%;
+  height: 140%;
+}
+
+.form1 {
+  top: 276px;
+  left: -79px;
+  margin-left: 200px;
+  position: relative;
+  padding: 40px;
+  width: 70%;
+  height: 50%;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px 2px rgba(0, 0, 0, 0.13);
+}
+.left-padding {
+  width: 85%;
+  margin: 0 auto;
+}
+.title {
+  margin-top: 1px;
+  margin-right: 8px;
+  padding-right: 0;
+  color: #5f4800;
+  font-size: 28px;
+  line-height: 30px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.top-title.flex.less-margin {
+  margin-bottom: 40px;
+}
+.top-title.flex {
+  display: flex;
+  align-items: center;
+}
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+}
+
+.line1 {
+  margin-top: -20px;
+  position: relative;
+  width: 30px;
+  height: 2px;
+  margin-right: -47px;
+  margin-left: -1px;
+  padding-left: 1px;
+  border-radius: 5px;
+  background-color: #ffc000;
+  color: #ffc000;
+}
+.formnameentry.all {
+  width: 100%;
+  border-color: #ecebeb;
+  margin-bottom: 15px;
+  background-color: transparent;
+}
+
+input {
+  cursor: text;
+  margin: 0;
+  font: inherit;
+}
+
+.form-input {
+  height: 38px;
+  padding: 8px 12px;
+  line-height: 1.42857143;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+}
+.form-button {
+  display: inline-block;
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+textarea {
+  flex-direction: column;
+  cursor: text;
+  overflow-y: hidden;
+}
+textarea .form-input {
+  height: auto;
+}
+
+.formmailentry.all {
+  width: 100%;
+  border-bottom-color: #ecebeb;
+  margin-bottom: 15px;
+  background-color: transparent;
+}
+.formmessageentry.all {
+  width: 100%;
+  margin-bottom: 20px;
+  padding-bottom: 85px;
+  border-bottom-color: #ecebeb;
+  background-color: transparent;
+}
+.formmailentry,
+.formnameentry,
+.formmessageentry {
+  color: #000;
+  min-height: 45px;
+  margin-right: 15px;
+  padding-left: 0;
+  float: left;
+  border-style: none none solid;
+  border-width: 1px 1px 2px;
+  border-color: #000;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 0;
+}
+.main-page {
+  padding: 10px 25px;
+  border-width: 4px;
+  border-radius: 100px;
+  background-color: transparent;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #5f4800;
+  font-weight: 900;
+  letter-spacing: 0;
+  border-style: solid;
+  border-color: #ffc000;
+  font-size: 20px;
+}
